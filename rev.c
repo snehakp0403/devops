@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+reverse()
+{
     int num, reversed = 0, remainder;
 
     // Input number
@@ -16,6 +17,6 @@ int main() {
 
     printf("Reversed number: %d\n", reversed);
 
-    return 0;
+//    return 0;
 }
 
