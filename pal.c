@@ -5,7 +5,7 @@ paliendrome()
     int num, original, reversed = 0, remainder;
 
     // Input number
-    printf("Enter an integer: ");
+    printf("\nEnter an integer: ");
     scanf("%d", &num);
 
     original = num;  // Store original number
@@ -23,6 +23,6 @@ paliendrome()
     else
         printf("%d is not a palindrome.\n", original);
 
-    return 0;
+//    return 0;
 }
 
